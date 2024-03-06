@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/feature-inside-lib": ["libs/feature-inside-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
