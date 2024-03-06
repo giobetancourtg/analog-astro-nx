@@ -1,8 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import { InsideAstroAppComponent } from '../components/insideAstroApp/insideAstroApp.component';
 ---
-
+<InsideAstroAppComponent client:load />
 <Layout title="Welcome to Astro.">
 	<main>
 		<svg
